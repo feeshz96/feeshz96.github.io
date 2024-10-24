@@ -1,127 +1,645 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" 
-    version="XHTML+RDFa 1.0"
-    xmlns:og="http://ogp.me/ns#"
-    xml:lang="en">
-<!-- 
-    Smart developers always View Source. 
-    
-    This application was built using Adobe Flex, an open source framework
-    for building rich Internet applications that get delivered via the
-    Flash Player or to desktops via Adobe AIR. 
-    
-    Learn more about Flex at http://flex.org 
-    // -->
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Buku Saku - Deteksi Dini dan Cegah Stunting</title>
-<meta name="Keywords" content="" />
-<meta name="Description" content="Buku Saku - Deteksi Dini dan Cegah Stunting" />
-<meta name="Generator" content="Flip PDF Corporate Edition 2.4.10.3 at http://www.flipbuilder.com" />
-<meta name="medium" content="video"/> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta property="og:image" content="files/shot.png"/>
-<meta property="og:title" content="Buku Saku - Deteksi Dini dan Cegah Stunting"/> 
-<meta property="og:description" content="Buku Saku - Deteksi Dini dan Cegah Stunting" />
-<meta property="og:video" content="book.swf"/> 
-<meta property="og:video:height" content="300"/> 
-<meta property="og:video:width" content="420"/> 
-<meta property="og:video:type" content="application/x-shockwave-flash"/> 
-
-<meta name="video_height" content="300"/> 
-<meta name="video_width" content="420"/> 
-<meta name="video_type" content="application/x-shockwave-flash"/> 
-<meta name="og:image" content="files/shot.png"/>
-
-<link rel="image_src" href="files/shot.png"/>
- <link rel="apple-touch-icon" href="files/thumb/1.jpg" />
-<!-- Include CSS to eliminate any default margins/padding and set the height of the html element and 
-       the body element to 100%, because Firefox, or any Gecko based browser, interprets percentage as 
-    the percentage of the height of its parent container, which has to be set explicitly.  Initially, 
-    don't display flashContent div so it won't show if JavaScript disabled.
+  <!-- 
+    - primary meta tags
   -->
+  <title>Flipbook - Internetan</title>
+  <meta name="title" content="Flipbook - Internetan">
+  <meta name="description" content="This is a Book eCommerce html template made by codewithsadee">
 
-<style type="text/css" media="screen">
-/*<![CDATA[*/
-html,
-body
-{
- height:100%;
- margin: 0px;
- overflow:hidden;
-}
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-body
-{
- margin:0;
- padding:0;
- overflow:auto;
- text-align:center;
- background-color: #ffffff;
-}
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-#flashContent
-{
- display:none;
-}
-/*]]>*/
-</style>
-<script type="text/javascript" src="js/swfobject.js"></script>
-<script type="text/javascript" src="js/fbscript.js"></script>
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
 
 </head>
-<body>
-<!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough 
-    JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
-    when JavaScript is disabled.
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
   -->
-  
-<div id="flashContent">
-<p>To view this page ensure that Adobe Flash Player version 10.0.0
-or greater is installed.</p>
- Besides, it's possible to <a href='./files/basic-html/index.html'>view a simplified version of the flippdf book on any device </a>,
-or you can view flippdf <a href='mobile/index.html'>mobile version </a>
-</div>
 
- <script>
- 	function showUserAgent(){
-		var str = navigator.userAgent;
-		var p = document.createElement("p");
-		p.innerHTML = str;
-		p.className = "gray";
-		document.getElementById("flashContent").appendChild(p);
-	}
-	
-	showUserAgent();
-</script>
+  <header class="header" data-header>
+    <div class="header-top">
+      <div class="container">
 
-<noscript><div><object classid=
-"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height=
-"100%" id="FlipBookBuilder"><param name="movie" value="book.swf" />
-<param name="quality" value="high" />
-<param name="bgcolor" value="#ffffff" />
-<param name="allowScriptAccess" value="always" />
-<param name="allowFullScreen" value="true" />
-<param name="allowFullScreenInteractive" value="true" />
-<!--[if !IE]>-->
-<object type="application/x-shockwave-flash" data="book.swf" width=
-"100%" height="100%"><param name="quality" value="high" />
-<param name="bgcolor" value="#ffffff" />
-<param name="allowScriptAccess" value="always" />
-<param name="allowFullScreen" value="true" />
-<param name="allowFullScreenInteractive" value="true" />
-<param name="wmode" value="transparent" />
-<!--<![endif]--><!--[if gte IE 6]>-->
-<p>Either scripts and active content are not permitted to run or
-Adobe Flash Player version 10.0.0 or greater is not installed.</p>
-<!--<![endif]--> 
-<a href="http://www.adobe.com/go/getflashplayer">Get Adobe Flash Player</a> <br/> <br/>
-Besides, it's possible to <a href='./files/basic-html/index.html'>view a simplified version of the flippdf book on any device </a>,
-or you can view flippdf <a href='mobile/index.html'>mobile version </a>
-<!--[if !IE]>--> <!--<![endif]--> </div></noscript>
-<script type="text/javascript" src="js/ActionHtmlWindow.js"></script>
-<script type="text/javascript" src="js/fbendscript.js"></script>
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="138" height="28" alt="booken home">
+        </a>
 
-<noscript><div><hr/><ul><li><a href="files/basic-html/index.html">Pages</a></li></ul><hr style="width:80%"/></div></noscript>
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Search our store" class="input-field">
+
+          <button class="btn btn-primary">Search</button>
+        </div>
+
+        <div class="header-action">
+
+          <button class="header-action-btn" aria-label="cart" title="Cart">
+            <span class="span">0</span>
+
+            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="open menu" title="Open Menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-btn" aria-label="user" title="User">
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-navbar>
+      <div class="container">
+
+        <nav class="navbar">
+
+          <button class="nav-close-btn" data-nav-toggler aria-label="clsoe menu" title="Clsoe Menu">
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <div class="navbar-top">
+            <input type="search" name="search" placeholder="Search our store" class="input-field">
+
+            <button class="search-btn" aria-label="Search">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+         
+
+        </nav>
+
+
+      </div>
+    </div>
+
+    <div class="overlay" data-overlay data-nav-toggler></div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature">
+        <div class="container">
+
+          <div class="grid-list">
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-1.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Free Shipping</h3>
+
+                  <p class="card-text">Order over $100</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-2.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Secure Payment</h3>
+
+                  <p class="card-text">100% Secure Payment</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-3.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Best Price</h3>
+
+                  <p class="card-text">Guaranteed Low Cost</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-4.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Easy Return</h3>
+
+                  <p class="card-text">Within 30 Days returns</p>
+                </div>
+
+              </div>
+            </li>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #FEATURED COLLECTION
+      -->
+
+      <section class="section featured" aria-label="featured collection">
+        <div class="container">
+
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <span class="card-badge">New</span>
+
+                <a href="https://flipbook.internetan.biz.id/buku" class="card-title"><div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/buku saku digital.jpg" width="384" height="480" loading="lazy" alt="Black Night"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    Buku Saku <br>Deteksi Dini Cegah Stunting
+                  </h3>
+
+                  <data class="card-price" value="80">FREE</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div></a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-2.png" width="384" height="480" loading="lazy"
+                    alt="About The First Night" class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                   
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">About The First Night</a>
+                  </h3>
+
+                  <data class="card-price" value="19">$19.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-3.png" width="384" height="480" loading="lazy" alt="Open The Sky"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Open The Sky</a>
+                  </h3>
+
+                  <data class="card-price" value="80">$80.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-4.png" width="384" height="480" loading="lazy" alt="Book Hard Cover"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Book Hard Cover</a>
+                  </h3>
+
+                  <data class="card-price" value="55">$55.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-5.png" width="384" height="480" loading="lazy"
+                    alt="The Big Book Of Science" class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">The Big Book Of Science</a>
+                  </h3>
+
+                  <data class="card-price" value="100">$100.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-6.png" width="384" height="480" loading="lazy" alt="By The Air"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">By The Air</a>
+                  </h3>
+
+                  <data class="card-price" value="89">$89.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-7.png" width="384" height="480" loading="lazy"
+                    alt="Murdering Last Year" class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Murdering Last Year</a>
+                  </h3>
+
+                  <data class="card-price" value="34">$34.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/book-8.png" width="384" height="480" loading="lazy" alt="Stay Healthy"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Stay Healthy</a>
+                  </h3>
+
+                  <data class="card-price" value="67">$67.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2024 | Made With Love by internetan.
+        </p>
+
+       
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
